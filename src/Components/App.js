@@ -1,15 +1,22 @@
 import './App.scss';
-import Nav from './Nav'
-import About from './About'
-import Projects from './Projects'
+import Nav from './Nav';
+import Home from './Home'
+import About from './About';
+import Projects from './Projects';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-      <About />
-      <Projects />
-    </div>
+    <Router>
+      <div className="App">
+        <Nav />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/projects" component={Projects} />
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
