@@ -6,7 +6,9 @@ import Projects from './Projects'
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Nav />
+      <About />
+      <Projects />
     </div>
   );
 }
