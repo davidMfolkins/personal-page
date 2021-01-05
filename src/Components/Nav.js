@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 function Nav() {
   return (
     <nav>
-      <Link className="text-link" to="/">
+      <Link className="logo-link" to="/">
         <h3>Logo</h3>
       </Link>
       <ul className="nav-links">
