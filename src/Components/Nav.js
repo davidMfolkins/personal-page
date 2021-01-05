@@ -14,6 +14,9 @@ function Nav() {
         <Link className="text-link" to='/projects'>
           <li>Projects</li>
         </Link>
+        <Link className="text-link" to='/hire'>
+          <li>Hire me!</li>
+        </Link>
       </ul>
     </nav>
   );
