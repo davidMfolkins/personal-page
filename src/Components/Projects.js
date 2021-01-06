@@ -16,12 +16,12 @@ function Projects() {
           <p>A node app with jQuery/AJAX, express, and PostgresQL where users can create public maps and build a personal profile.</p>
         </div>
         <div className="project-container">
-          <img src="https://via.placeholder.com/600x350"></img>
+          <img src="https://raw.githubusercontent.com/davidMfolkins/scheduler/master/public/docs/book-interview.png" width="600" height="350"></img>
           <p>Schedular</p>
           <p>Interview Scheduler is a single-page full stack React scheduler. Users can book appointments, edit those appointments and cancel them! This was part of Lighthouse Labs Curriculum</p>
         </div>
         <div className="project-container">
-          <img src="https://via.placeholder.com/600x350"></img>
+          <img src="https://raw.githubusercontent.com/davidMfolkins/tweeter/master/public/docs/desktop-mode.png" width="600" height="350"></img>
           <p>Tweeter</p>
           <p>Tweeter is a simple, single-page Twitter clone. This was part of the Lighthouse Labs Curriculum</p>
         </div>
