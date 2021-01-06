@@ -65,6 +65,21 @@ function Projects() {
           <p>Tweeter</p>
           <p>Tweeter is a simple, single-page Twitter clone. User can tweet and see their tweets display automatically. This was part of the Lighthouse Labs curriculum</p>
         </div>
+
+        <div className="project-container">
+          <img 
+          src="https://raw.githubusercontent.com/davidMfolkins/spotify-artist-search/master/spotify-artist-search/docs/albumpage.png" 
+          width="600" 
+          height="350" 
+          alt="Spotify-artist-search"
+          onClick={(e) => {
+            e.preventDefault();
+            window.open('https://github.com/davidMfolkins/spotify-artist-search', '_blank');
+          }}
+          ></img>
+          <p>Spotify Artist Search</p>
+          <p>Spotify Artist Search app is a tool where users can login using Spotify account, search for artists and view their albums. Users can select albums which brings you to the Spotify album page where users can listen to selected album</p>
+        </div>
       </div>
     </div>
   );
