@@ -37,45 +37,45 @@ function Projects() {
         </div>
 
         <div className="project-container">
-          <img 
-          src="https://raw.githubusercontent.com/davidMfolkins/scheduler/master/public/docs/book-interview.png" 
-          width="600" 
-          height="350" 
-          alt="Schedular"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open('https://github.com/davidMfolkins/scheduler', '_blank');
-          }}
+          <img
+            src="https://raw.githubusercontent.com/davidMfolkins/scheduler/master/public/docs/book-interview.png"
+            width="600"
+            height="350"
+            alt="Schedular"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://github.com/davidMfolkins/scheduler', '_blank');
+            }}
           ></img>
           <p>Schedular</p>
           <p>Interview Scheduler is a single-page full stack React scheduler. Users can book appointments, edit those appointments and cancel them! This was part of Lighthouse Labs curriculum</p>
         </div>
 
         <div className="project-container">
-          <img 
-          src="https://raw.githubusercontent.com/davidMfolkins/tweeter/master/public/docs/desktop-mode.png" 
-          width="600" 
-          height="350" 
-          alt="Tweeter"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open('https://github.com/davidMfolkins/tweeter', '_blank');
-          }}
+          <img
+            src="https://raw.githubusercontent.com/davidMfolkins/tweeter/master/public/docs/desktop-mode.png"
+            width="600"
+            height="350"
+            alt="Tweeter"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://github.com/davidMfolkins/tweeter', '_blank');
+            }}
           ></img>
           <p>Tweeter</p>
           <p>Tweeter is a simple, single-page Twitter clone. User can tweet and see their tweets display automatically. This was part of the Lighthouse Labs curriculum</p>
         </div>
 
         <div className="project-container">
-          <img 
-          src="https://raw.githubusercontent.com/davidMfolkins/spotify-artist-search/master/spotify-artist-search/docs/albumpage.png" 
-          width="600" 
-          height="350" 
-          alt="Spotify-artist-search"
-          onClick={(e) => {
-            e.preventDefault();
-            window.open('https://github.com/davidMfolkins/spotify-artist-search', '_blank');
-          }}
+          <img
+            src="https://raw.githubusercontent.com/davidMfolkins/spotify-artist-search/master/spotify-artist-search/docs/albumpage.png"
+            width="600"
+            height="350"
+            alt="Spotify-artist-search"
+            onClick={(e) => {
+              e.preventDefault();
+              window.open('https://github.com/davidMfolkins/spotify-artist-search', '_blank');
+            }}
           ></img>
           <p>Spotify Artist Search</p>
           <p>Spotify Artist Search app is a tool where users can login using Spotify account, search for artists and view their albums. Users can select albums which brings you to the Spotify album page where users can listen to selected album</p>
